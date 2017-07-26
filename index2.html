@@ -1,121 +1,257 @@
 <!DOCTYPE html>
- <html>
-   <head>
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"  media="screen,projection"/>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"  media="screen,projection"/>
 
-     <!--Let browser know website is optimized for mobile-->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   </head>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
-   <body>
-     <nav>
-    <div class="nav-wrapper">
+<body>
+  <div class="navbar-fixed">
+  <nav>
+    <div class=" nav-wrapper grey darken-4">
       <a href="#!" class="brand-logo">Nely Flores</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Acerca de mí</a></li>
-        <li><a href="badges.html">Proyectos</a></li>
-        <li><a href="collapsible.html">Herramientas</a></li>
-        <li><a href="mobile.html">Contacto</a></li>
+        <li><a href="#about">Acerca de mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#herramientas">Herramientas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Acerca de mí</a></li>
-        <li><a href="badges.html">Proyectos</a></li>
-        <li><a href="collapsible.html">Herramientas</a></li>
-        <li><a href="mobile.html">Contacto</a></li>
+        <li><a href="#about">Acerca de mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#herramientas">Herramientas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div>
   </nav>
+  </div>
 
-     <div class="parallax-container">
-      <div class="parallax"><img src="img/parallax1.jpg"></div>
+  <div class="parallax-container valign-wrapper center">
+    <div class="parallax"><img src="img/parallax1.jpg"></div>
+    <div class="opacidad ">
       <h2 class="white-text center">¡¡Hola!! Soy Nely Flores </h2>
       <h3 class="white-text center">Ing. en Sistemas Computacionales & Front-End Developer Jr.</h3>
-    </div>
-    <div class="section white">
-   <div class="row container">
-     <h2 class="header">Acerca de mí</h2>
-     <p class="grey-text text-darken-3 lighten-3">Disfruto de cada aspecto del desarollo y el diseño, me encanta construir sitios y aplicaciones móviles de principio a fin.</p>
-   </div>
- </div>
- <div class="parallax-container">
-   <div class="parallax"><img src="img/parallax2.jpg"></div>
- </div>
- <div class="section white">
-<div class="row container">
-  <h2 class="header">Proyectos</h2>
-  <p class="grey-text text-darken-3 lighten-3">Disfruto de cada aspecto del desarollo y el diseño, me encanta construir sitios y aplicaciones móviles de principio a fin.</p>
-  <div class="row">
-    <div class="s12 m6 l6">
-      <div class="card z-depth-5">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/primera.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Página Responsive<i class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-
-    </div>
-    <div class=" s12 m6 l6">
-      <div class="card z-depth-5">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/labcar.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
+      <a  href="img/yo.pdf" class="waves-effect waves-light btn-large blue accent-4 ">CV</a>
 
     </div>
 
   </div>
 
-</div>
-</div>
- <footer class="page-footer">
-         <div class="container">
-           <div class="row">
-             <div class="col l6 s12">
-               <h5 class="white-text">Footer Content</h5>
-               <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-             </div>
-             <div class="col l4 offset-l2 s12">
-               <h5 class="white-text">Links</h5>
-               <ul>
-                 <li><a class="grey-text text-lighten-3" href="#!">Acerca de mí</a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!">Proyectos</a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!">Herramientas</a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!">Contactos</a></li>
-               </ul>
-             </div>
-           </div>
-         </div>
-         <div class="footer-copyright">
-           <div class="container">
-           © 2017 Nely Flores
-           <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-           </div>
-         </div>
-       </footer>
-     <!--Import jQuery before materialize.js-->
-     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-     <script type="text/javascript" src="js/main.js">
+  <div class="section white" id="about">
+    <div class="row container">
+      <h2 class="header">Acerca de mí</h2>
+      <p class="grey-text text-darken-3 lighten-3">A lo largo del camino encontré una pasión por la interacción y el desarrollo de Front-End, y uso esas pasiones para crear interfaces que solucionen problemas.</p>
+      <p class="grey-text text-darken-3 lighten-3">Mi objetivo es crear cosas que funcionen, desarrollar aplicaciones web usando HTML5, CSS3 y JavaScript.</p>
+      <div class= "row center">
+        <div class="col s12 m4">
+          <img src="img/website-design.png">
+          <h3>Diseño web</h3>
+          <p>Diseñar para la web no es un trabajo es un estilo de vida. A medida que la tecnología cambia, también lo hace el desafío.</p>
+        </div>
 
-     </script>
-   </body>
- </html>
+        <div class="col s12 m4">
+          <img src="img/programming.png">
+          <h3>Desarrollo</h3>
+          <p>Me encanta traer mis diseños a la vida en HTML, CSS y Javascript.</p>
+        </div>
+        <div class="col s12 m4">
+          <img src="img/graphic-design.png">
+          <h3>UI Design</h3>
+          <p>Diseño interfaces amigables e intuitivas que permiten a los usuarios enfocarse en la tarea y no en la herramienta.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/parallax2.jpg"></div>
+  </div>
+
+  <div class="section white" id="proyectos">
+    <div class="row container">
+      <h2 class="header">Mis Proyectos</h2>
+      <p class="grey-text text-darken-3 lighten-3">Estos son algunos proyectos que he realizado. </p>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/primera.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Página Responsive<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://nelyflores.github.io/ejercicio-leccion31/">Ver Demo</a>     <a href="https://github.com/nelyflores/ejercicio-leccion31">      Ver Codigo</a></p>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">LabCar <i class="material-icons right">close</i></span>
+              <p>Objetivo</p>
+              <ul>
+                <li>Diseño Responsive</li>
+                <li>Imágenes y video</li>
+                <li>Utilizar breakpoints</li>
+                <li>Formulario</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col s12 m6 l6">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/labcar.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">LabCar<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://nelyflores.github.io/labcar/">Ver Demo</a> <a href="https://github.com/nelyflores/labcar">      Ver Codigo</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/paginasass.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Página Web con Sass<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://nelyflores.github.io/google_sass/">Ver Demo</a> <a href="https://github.com/nelyflores/google_sass"> Ver Codigo</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Objetivo<i class="material-icons right">close</i></span>
+
+              <ul>
+                <li>Desarrollar una página web usando el preprocesador Sass</li>
+                <li>Usar directivas de control</li>
+                <li>Aplicar funciones propias de Sass</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col s12 m6 l6">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/agenda.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Agenda con jQuery<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://nelyflores.github.io/agenda/#!">Ver Demo</a><a href="https://github.com/nelyflores/agenda"> Ver Codigo</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Objetivo<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Maquetado con materialize.</li>
+                <li>Usa modal con formulario para agregar un nuevo usuario</li>
+                <li>  Agrega un evento click a boton del modal</li>
+                <li>  En el evento toma el texto del formulario</li>
+                <li>Agrega el texto al HTML</li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/parallax1.jpg"></div>
+  </div>
+  <div class="section white" id="herramientas">
+    <div class="row container">
+      <h2 class="header">Herramientas de desarrollo</h2>
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="img/html-css-js.png">
+
+        </div>
+        <div class="col s12 m6">
+          <img src="img/l3.png" alt="">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="img/images.png">
+
+        </div>
+        <div class="col s12 m6">
+          <img src="img/apple-touch-icon-152x152.png" alt="">
+
+        </div>
+      </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer grey darken-4">
+    <div class="container ">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contactos</h5>
+
+          <div class="row">
+            <div class="col s3">
+              <a href="https://github.com/nelyflores"><img src="img/github-logo.png" alt=""></a>
+
+            </div>
+            <div class="col s3">
+                <a href="https://www.linkedin.com/in/nely-abigail-flores-rojas-677805145/"><img src="img/linkedin.png" alt=""></a>
+
+            </div>
+            <div class="col s3">
+                <a href="mailto:nely.afloresr@gmail.com"><img src="img/mail.png" alt=""></a>
+
+            </div>
+            <div class="col s3">
+                <img src="img/smartphone.png" alt="17372743">
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#about">Acerca de mí</a></li>
+            <li><a class="grey-text text-lighten-3" href="#proyectos">Proyectos</a></li>
+            <li><a class="grey-text text-lighten-3" href="#herramientas">Herramientas</a></li>
+            <li><a class="grey-text text-lighten-3" href="#contactos">Contactos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Nely Flores
+
+      </div>
+    </div>
+  </footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</body>
+</html>
