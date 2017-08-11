@@ -3,8 +3,10 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,16 +21,16 @@
         <a href="#home" class="brand-logo">Nely Flores</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#herramientas">Herramientas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="azul" href="#about">Acerca de mí</a></li>
+          <li><a class="azul" href="#proyectos">Proyectos</a></li>
+          <li><a class="azul" href="#herramientas">Herramientas</a></li>
+          <li><a class="azul" href="#contacto">Contacto</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#herramientas">Herramientas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="azul" href="#about">Acerca de mí</a></li>
+          <li><a class="azul" href="#proyectos">Proyectos</a></li>
+          <li><a class="azul" href="#herramientas">Herramientas</a></li>
+          <li><a class="azul" href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -36,10 +38,10 @@
 
   <div class="parallax-container valign-wrapper center" id="home">
     <div class="parallax"><img class="responsive-img" src="img/parallax1.jpg"></div>
-      <div class="opacidad row">
+      <div class="opacidad row wow bounceInDown">
         <div class="col s12">
-          <h2 class="white-text center">¡¡Hola!! Soy Nely Flores </h2>
-          <h3 class="white-text center">Ing. en Sistemas Computacionales & Front-End Developer Jr.</h3>
+          <h2 class="white-text center">¡¡ Hola !! Soy Nely Flores </h2>
+          <h3 class="white-text center">Ing. en Sistemas Computacionales <span> & </span>Front-End Developer Jr.</h3>
           <a  href="img/yo.pdf" class="waves-effect waves-light btn-large blue accent-4 cv">Ver CV</a>
         </div>
       </div>
@@ -47,21 +49,22 @@
 
   <div class="section white" id="about">
     <div class="row container">
-      <h2 class="header">Acerca de mí</h2>
+      <h2 class="header center">Acerca de mí</h2>
+      <hr class='separador_post'>
       <p class="grey-text text-darken-3 lighten-3">A lo largo del camino encontré una pasión por la interacción y el desarrollo de Front-End, y uso esas pasiones para crear interfaces que solucionen problemas.</p>
       <p class="grey-text text-darken-3 lighten-3">Mi objetivo es crear cosas que funcionen, desarrollar aplicaciones web usando HTML5, CSS3 y JavaScript.</p>
     <div class= "row center">
-      <div class="col s12 m4">
+      <div class="col s12 m4 wow bounceInLeft" data-wow-delay="1s">
         <img src="img/website-design.png">
         <h3>Diseño web</h3>
         <p>Diseñar para la web no es un trabajo es un estilo de vida. A medida que la tecnología cambia, también lo hace el desafío.</p>
       </div>
-      <div class="col s12 m4">
-        <img src="img/programming.png">
+      <div class="col s12 m4 wow bounceInUp" data-wow-delay="2s">
+        <img src="img/programming.png ">
         <h3>Desarrollo</h3>
         <p>Me encanta traer mis diseños a la vida en HTML, CSS y Javascript.</p>
       </div>
-      <div class="col s12 m4">
+      <div class="col s12 m4 wow bounceInRight" data-wow-delay="3s">
         <img src="img/graphic-design.png">
         <h3>UI Design</h3>
         <p>Diseño interfaces amigables e intuitivas que permiten a los usuarios enfocarse en la tarea y no en la herramienta.</p>
@@ -76,7 +79,8 @@
 
   <div class="section white container" id="proyectos">
     <div class="row   ">
-      <h2 class="header">Mis Proyectos</h2>
+      <h2 class="header center">Mis Proyectos</h2>
+      <hr class='separador_post'>
       <p class="grey-text text-darken-3 lighten-3">Estos son algunos proyectos que he realizado, Para ello use . </p>
         </div>
       <div class="row">
@@ -285,45 +289,46 @@
   </div>
 
   <div class="section white container" id="herramientas">
-    <div class="row ">
+    <div class="row center">
       <h2 class="header">Herramientas de desarrollo</h2>
+      <hr class='separador_post'>
       <div class="row ">
-        <div class="col s4 m4 l4">
+        <div class="col s4 m4 l4 wow rotateIn" data-wow-delay="1s">
           <img   class="responsive-img center" src="img/basico.png">
         </div>
-        <div class="col s4 m4 l4">
+        <div class="col s4 m4 l4 wow rotateIn" data-wow-delay="2s">
           <img  class="responsive-img center" src="img/jqueryredondo.png" alt="">
         </div>
-        <div class="col s4 m4 l4">
+        <div class="col s4 m4 l4 wow rotateIn" data-wow-delay="3s">
           <img  class="responsive-img center" src="img/bootstrapredondo.png">
         </div>
       </div>
 
       <div class="row">
         <div class="col s4 m4 l4">
-          <img   class="responsive-img center" src="img/materializeredondo.png" alt="">
+          <img   class="responsive-img wow rollIn" data-wow-delay="1s" src="img/materializeredondo.png" alt="">
         </div>
         <div class="col s4 m4 l4">
-          <img  class="responsive-img center" src="img/atomredondo.png" alt="">
+          <img  class="responsive-img wow rollIn" data-wow-delay="2s" src="img/atomredondo.png" alt="">
         </div>
          <div class="col s4 m4 l4">
-          <img class="responsive-img center" src="img/gitredondo.png" alt="">
+          <img class="responsive-img wow rollIn" data-wow-delay="3s" src="img/gitredondo.png" alt="">
         </div>
       </div>
       <div class="row">
         <div class="col s4 m4 l4">
-          <img class="responsive-img " src="img/gulpredondo.png" alt="">
+          <img class="responsive-img wow rotateInUpRight" data-wow-delay="1s" src="img/gulpredondo.png" alt="">
         </div>
             <div class="col s4 m4 l4">
-              <img class="responsive-img " src="img/noderedondo.png" alt="">
+              <img class="responsive-img wow rotateInUpRight "  data-wow-delay="2s" src="img/noderedondo.png" alt="">
             </div>
         <div class="col s4 m4 l4">
-          <img class="responsive-img " src="img/reactredondo.png" alt="">
+          <img class="responsive-img wow rotateInUpRight " data-wow-delay="3s" src="img/reactredondo.png" alt="">
         </div>
       </div>
       <div class="row">
         <div class="col s4 m4 l4">
-          <img class="responsive-img " src="img/npmredondo.png" alt="">
+          <img class="responsive-img  wow zoomIn " src="img/npmredondo.png" alt="">
         </div>
       </div>
     </div>
@@ -352,9 +357,9 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#about">Acerca de mí</a></li>
-            <li><a class="grey-text text-lighten-3" href="#proyectos">Proyectos</a></li>
-            <li><a class="grey-text text-lighten-3" href="#herramientas">Herramientas</a></li>
+            <li><a class="grey-text text-lighten-3 azul-footer" href="#about">Acerca de mí</a></li>
+            <li><a class="grey-text text-lighten-3 azul-footer" href="#proyectos">Proyectos</a></li>
+            <li><a class="grey-text text-lighten-3 azul-footer" href="#herramientas">Herramientas</a></li>
 
           </ul>
         </div>
@@ -370,6 +375,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script src="js/wow.min.js"></script>
 </body>
 </html>
