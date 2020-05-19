@@ -1,76 +1,62 @@
-
-
-.opacidad{
+.opacidad {
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
-
-
 }
-.derecha{
-  margin-left:2px;
+.derecha {
+  margin-left: 2px;
 }
 #sidenav-overlay {
   z-index: -1;
 }
-.btn-tarjeta{
-	background-color: transparent;
-	color: #006EF1;
-	border-style: solid  ;
-	border-radius: 5px;
+.btn-tarjeta {
+  background-color: transparent;
+  color: #d50000;
+  border: solid 1px;
 }
-.btn-tarjeta:hover{
-	background-color: #81b3ef;
-
+.btn-tarjeta:hover {
+  background-color: #ff5252;
+  border: none;
+  color: white;
 }
-.cv{
-	width: 260px;
-	background-color: #006EF1;
-
+.cv {
+  width: 260px;
+  background-color: #006ef1;
 }
-span{
-	color: #006EF1;
+span {
+  color: #ff5252;
 }
-.azul:hover{
-	background-color:#006EF1; 
+.azul:hover {
+  background-color: #ff5252;
 }
-.azul-footer:hover{
-	color:#006EF1 !important; 
+.red-footer {
+  color: #ff5252 !important;
 }
-.brand-logo{
-	font-family: 'Pattaya', sans-serif;
+.brand-logo {
+  font-family: "Pattaya", sans-serif;
 }
-letra{
-  font-family: 'Pattaya', sans-serif;
+.letra {
+  font-family: "Pattaya", sans-serif;
 }
-hr.separador_post { 
- height: 30px;
- border-style: solid;
- border-color: #BFBFBF;
- border-width: 2px 0 0 0;
- border-radius: 20px;
- text-align: center;
+hr.separador_post {
+  height: 30px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-width: 2px 0 0 0;
+  text-align: center;
 }
-
-hr.separador_post:before {
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    -webkit-border-radius:20px;
-       -moz-border-radius:20px;
-            border-radius:20px;
+.icon-about {
+  width: 50%;
+}
+.margintop-3 {
+  margin-top: 24px;
 }
 
-hr.separador_post:after {
-    content: '★';
-    color: #006EF1;
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
+.list-border {
+  border-color: #ff5252;
+}
+.collection .collection-item {
+  border-bottom: #ff5252 1px solid;
+}
+i {
+  color: #d50000;
 }

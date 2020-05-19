@@ -1,103 +1,157 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"  media="screen,projection"/>
-  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pattaya"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link href="css/all.css" rel="stylesheet">
+    <script defer src="js/all.js"></script>
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/main.css">
-  <title class="letra">Nely Flores</title>
-  <link rel="shortcut icon" href="img/developer.png">
-</head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title class="letra">Nely Flores</title>
+    <link rel="shortcut icon" href="img/developer.png" />
+  </head>
 
-<body>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper red accent-4">
+          <a href="#home" class="brand-logo">Nely Flores</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a class="azul" href="#about">Acerca de mí</a></li>
+            <li><a class="azul" href="#proyectos">Proyectos</a></li>
+            <li><a class="azul" href="#herramientas">Herramientas</a></li>
+            <li><a class="azul" href="#contacto">Contacto</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a class="azul" href="#about">Acerca de mí</a></li>
+            <li><a class="azul" href="#proyectos">Proyectos</a></li>
+            <li><a class="azul" href="#herramientas">Herramientas</a></li>
+            <li><a class="azul" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-  <div class="navbar-fixed">
-    <nav >
-      <div class=" nav-wrapper grey darken-4 ">
-        <a href="#home" class="brand-logo">Nely Flores</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="azul" href="#about">Acerca de mí</a></li>
-          <li><a class="azul" href="#proyectos">Proyectos</a></li>
-          <li><a class="azul" href="#herramientas">Herramientas</a></li>
-          <li><a class="azul" href="#contacto">Contacto</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a class="azul" href="#about">Acerca de mí</a></li>
-          <li><a class="azul" href="#proyectos">Proyectos</a></li>
-          <li><a class="azul" href="#herramientas">Herramientas</a></li>
-          <li><a class="azul" href="#contacto">Contacto</a></li>
-        </ul>
+    <div class="parallax-container valign-wrapper center" id="home">
+      <div class="parallax">
+        <img class="responsive-img" src="img/parallax1.jpg" />
       </div>
-    </nav>
-  </div>
-
-  <div class="parallax-container valign-wrapper center" id="home">
-    <div class="parallax"><img class="responsive-img" src="img/parallax1.jpg"></div>
       <div class="opacidad row wow bounceInDown">
         <div class="col s12">
-          <h2 class="white-text center">¡¡ Hola !! Soy Nely Flores </h2>
-          <h3 class="white-text center">Ing. en Sistemas Computacionales <span> & </span>Front-End Developer Jr.</h3>
-          <a  href="img/yo.pdf" class="waves-effect waves-light btn-large blue accent-4 cv external">Ver CV</a>
+          <h2 class="white-text center">¡¡ Hola !! Soy Nely Flores</h2>
+          <h3 class="white-text center">
+            Ing. en Sistemas Computacionales <span> & </span>Front-End Developer
+            Jr.
+          </h3>
+          <a
+            href="img/Nely flores.pdf"
+            class="waves-effect waves-light btn-large red accent-2 cv external"
+            >Ver CV</a
+          >
         </div>
       </div>
-  </div>
-
-  <div class="section white" id="about">
-    <div class="row container">
-      <h2 class="header center">Acerca de mí</h2>
-      <hr class='separador_post'>
-      <p class="grey-text text-darken-3 lighten-3">A lo largo del camino encontré una pasión por la interacción y el desarrollo de Front-End, y uso esas pasiones para crear interfaces que solucionen problemas.</p>
-      <p class="grey-text text-darken-3 lighten-3">Mi objetivo es crear cosas que funcionen, desarrollar aplicaciones web usando HTML5, CSS3 y JavaScript.</p>
     </div>
-    <div class= "row  container center">
-      <div class="col s12 m4 wow bounceInLeft" data-wow-delay="1s">
-        <img src="img/website-design.png">
-        <h3>Diseño web</h3>
-        <p>Diseñar para la web no es un trabajo es un estilo de vida. A medida que la tecnología cambia, también lo hace el desafío.</p>
-      </div>
-      <div class="col s12 m4 wow bounceInUp" data-wow-delay="2s">
-        <img src="img/programming.png ">
-        <h3>Desarrollo</h3>
-        <p>Me encanta traer mis diseños a la vida en HTML, CSS y Javascript.</p>
-      </div>
-      <div class="col s12 m4 wow bounceInRight" data-wow-delay="3s">
-        <img src="img/graphic-design.png">
-        <h3>UI Design</h3>
-        <p>Diseño interfaces amigables e intuitivas que permiten a los usuarios enfocarse en la tarea y no en la herramienta.</p>
-      </div>
-    </div>
-  </div>
 
-<div class="parallax-container">
-  <div class="parallax"><img  class="responsive-img"  src="img/parallax2.jpg"></div>
-</div>
-
-  <div class="section white " id="proyectos">
-    <div class="row container ">
-      <h2 class="header center">Mis Proyectos</h2>
-      <hr class='separador_post'>
-      <p class="grey-text text-darken-3 lighten-3">Estos son algunos proyectos que he realizado. </p>
-    </div>
+    <div class="section white" id="about">
       <div class="row container">
+        <h2 class="header center">Acerca de mí</h2>
+        <hr class="separador_post" />
+        <p class="grey-text text-darken-3 lighten-3">
+          A lo largo del camino encontré una pasión por la interacción y el desarrollo de aplicaciones web. Deseo poder conceptualizar, diseñar, desarrollar e implementar software que contenga soluciones lógicas a problemas,  a través del aprendizaje  de nuevas herramientas tecnológicas
+        </p>
+        <p class="grey-text text-darken-3 lighten-3">
+          Mi objetivo es crear y desarrollar aplicaciones web que facilite la vida de las personas.
+        </p>
+      </div>
+      <div class="row container center  margintop-3">
+        <div class="col s12 m4 wow bounceInLeft" data-wow-delay="1s">
+          <img src="img/website-design.png" class="icon-about" />
+          <h5>Diseño web</h3>
+          <p class="left-align">
+            Diseñar para la web no es un trabajo es un estilo de vida. A medida
+            que la tecnología cambia, también lo hace el desafío.
+          </p>
+        </div>
+        <div class="col s12 m4 wow bounceInUp" data-wow-delay="2s">
+          <img src="img/programming.png " class="icon-about" />
+          <h5>Desarrollo</h3>
+          <p class="left-align">
+            Me encanta traer mis diseños a la vida en HTML, CSS y Javascript.
+          </p>
+        </div>
+        <div class="col s12 m4 wow bounceInRight" data-wow-delay="3s">
+          <img src="img/graphic-design.png" class="icon-about" />
+          <h5>UI Design</h3>
+          <p class="left-align">
+            Diseño interfaces amigables e intuitivas que permiten a los usuarios
+            enfocarse en la tarea y no en la herramienta.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img class="responsive-img" src="img/parallax2.jpg" />
+      </div>
+    </div>
+
+    <div class="section white" id="proyectos">
+      <div class="row container">
+        <h2 class="header center">Mis Proyectos</h2>
+        <hr class="separador_post" />
+      </div>
+      <div class="row container margintop-3">
         <div class="col s12 m6 l6">
-          <div class="card z-depth-5">
+          <div class="card z-depth-1">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/primera.png">
+              <img class="activator" src="img/primera.png" />
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Página Responsive<i class="material-icons right">more_vert</i></span>
-              <p><a  class="btn btn-tarjeta external" href="https://nelyflores.github.io/ejercicio-leccion31/">Demo</a>
-              <a  class="derecha btn btn-tarjeta external" href="https://github.com/nelyflores/ejercicio-leccion31">Codigo</a></p>
+              <span class="card-title activator grey-text text-darken-4"
+                >Página Responsive<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+              <p>
+                <a
+                  class="btn btn-tarjeta external"
+                  href="https://nelyflores.github.io/ejercicio-leccion31/"
+                  >Demo</a
+                >
+                <a
+                  class="derecha btn btn-tarjeta external"
+                  href="https://github.com/nelyflores/ejercicio-leccion31"
+                  >Codigo</a
+                >
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Página Responsive <i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4"
+                >Página Responsive
+                <i class="material-icons right">close</i></span
+              >
               <p>Objetivo</p>
               <ul>
                 <li>Diseño Responsive</li>
@@ -110,27 +164,42 @@
         </div>
 
         <div class="col s12 m6 l6">
-          <div class="card z-depth-5">
+          <div class="card z-depth-1">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/labcar.png">
+              <img class="activator" src="img/labcar.png" />
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">LabCar<i class="material-icons right">more_vert</i></span>
-              <p><a class="btn btn-tarjeta external" href="https://nelyflores.github.io/labcar/">Demo</a>
-                <a  class="derecha btn btn-tarjeta external"  href="https://github.com/nelyflores/labcar">Codigo</a></p>
+              <span class="card-title activator grey-text text-darken-4"
+                >LabCar<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a
+                  class="btn btn-tarjeta external"
+                  href="https://nelyflores.github.io/labcar/"
+                  >Demo</a
+                >
+                <a
+                  class="derecha btn btn-tarjeta external"
+                  href="https://github.com/nelyflores/labcar"
+                  >Codigo</a
+                >
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">LabCar<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4"
+                >LabCar<i class="material-icons right">close</i></span
+              >
               <p>Objetivo.</p>
               <ul>
-                <li>Realizar maquetación con Materialize y usar modales con formularios </li>
-
+                <li>
+                  Realizar maquetación con Materialize y usar modales con
+                  formularios
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-
 
       <!--<div class="row">
         <div class="col s12 m6 l6">
@@ -180,24 +249,35 @@
         </div>
       </div>-->
 
-
-
-
-
-
       <div class="row container">
         <div class="col s12 m6 l6">
-          <div class="card z-depth-5">
+          <div class="card z-depth-1">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/paginasass.png">
+              <img class="activator" src="img/paginasass.png" />
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Página con Sass<i class="material-icons right">more_vert</i></span>
-              <p><a class="btn btn-tarjeta external" href="https://nelyflores.github.io/google_sass/">Demo</a>
-                 <a class="derecha btn btn-tarjeta external"   href="https://github.com/nelyflores/google_sass">Codigo</a></p>
+              <span class="card-title activator grey-text text-darken-4"
+                >Página con Sass<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+              <p>
+                <a
+                  class="btn btn-tarjeta external"
+                  href="https://nelyflores.github.io/google_sass/"
+                  >Demo</a
+                >
+                <a
+                  class="derecha btn btn-tarjeta external"
+                  href="https://github.com/nelyflores/google_sass"
+                  >Codigo</a
+                >
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Objetivo<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4"
+                >Objetivo<i class="material-icons right">close</i></span
+              >
               <ul>
                 <li>Desarrollar una página web usando el preprocesador Sass</li>
                 <li>Usar directivas de control</li>
@@ -206,24 +286,40 @@
             </div>
           </div>
         </div>
-        <div class=" col s12 m6 l6">
-          <div class="card z-depth-5">
+        <div class="col s12 m6 l6">
+          <div class="card z-depth-1">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/Agenda.png">
+              <img class="activator" src="img/Agenda.png" />
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Agenda con jQuery<i class="material-icons right">more_vert</i></span>
-              <p><a class="btn btn-tarjeta external" href="https://nelyflores.github.io/agenda/#!">Demo</a>
-                <a class="derecha btn btn-tarjeta external"  href="https://github.com/nelyflores/agenda">Codigo</a></p>
+              <span class="card-title activator grey-text text-darken-4"
+                >Agenda con jQuery<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+              <p>
+                <a
+                  class="btn btn-tarjeta external"
+                  href="https://nelyflores.github.io/agenda/#!"
+                  >Demo</a
+                >
+                <a
+                  class="derecha btn btn-tarjeta external"
+                  href="https://github.com/nelyflores/agenda"
+                  >Codigo</a
+                >
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Objetivo<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4"
+                >Objetivo<i class="material-icons right">close</i></span
+              >
               <ul>
                 <li>Maquetado con materialize.</li>
                 <li>Usa jQuery</li>
                 <li>Usa modal con formulario para agregar un nuevo usuario</li>
-                <li>  Agrega un evento click a boton del modal</li>
-                <li>  En el evento toma el texto del formulario</li>
+                <li>Agrega un evento click a boton del modal</li>
+                <li>En el evento toma el texto del formulario</li>
                 <li>Agrega el texto al HTML</li>
               </ul>
             </div>
@@ -233,144 +329,261 @@
 
       <div class="row container">
         <div class="col s12 m6 l6">
-         <div class="card z-depth-5">
+          <div class="card z-depth-1">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/canalventas.png">
+              <img class="activator" src="img/canalventas.png" />
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Micrositio<i class="material-icons right">more_vert</i></span>
-              <p><a class="external btn btn-tarjeta" href="https://marianajane.github.io/LabExp-Clientes/">Demo</a>
-                <a  class="derecha external btn btn-tarjeta" href="https://github.com/nelyflores/LabExp-Clientes">Codigo</a></p>
+              <span class="card-title activator grey-text text-darken-4"
+                >Micrositio<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a
+                  class="external btn btn-tarjeta"
+                  href="https://marianajane.github.io/LabExp-Clientes/"
+                  >Demo</a
+                >
+                <a
+                  class="derecha external btn btn-tarjeta"
+                  href="https://github.com/nelyflores/LabExp-Clientes"
+                  >Codigo</a
+                >
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Micrositio Experimenta <i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4"
+                >Micrositio Experimenta
+                <i class="material-icons right">close</i></span
+              >
               <p>Objetivo</p>
               <ul>
-                <li>Propuesta de Micrositio para Experimenta </li>
+                <li>Propuesta de Micrositio para Experimenta</li>
                 <li>Se uso Github colaborativo</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>Que se necesitaba:</li>
-                <p>La creación de un micrositio para Canales el cual nos permita brindar el servicio sin la necesidad de tener a un ejecutivo de cuenta que le dé seguimiento a cada compra.
-                   Entre las necesidades es incorporar un inicio de sesión para usuarios que nos ayude a guarda la información en dichos perfiles y la elaboración de un formulario,
-                  el cual segmente y delimite las experiencias, para mostrar las mejores de acuerdo a la iniciativa.</p>
+                <p>
+                  La creación de un micrositio para Canales el cual nos permita
+                  brindar el servicio sin la necesidad de tener a un ejecutivo
+                  de cuenta que le dé seguimiento a cada compra. Entre las
+                  necesidades es incorporar un inicio de sesión para usuarios
+                  que nos ayude a guarda la información en dichos perfiles y la
+                  elaboración de un formulario, el cual segmente y delimite las
+                  experiencias, para mostrar las mejores de acuerdo a la
+                  iniciativa.
+                </p>
                 <li>usuario: patitoadm@gmail.com / contraseña: contra1X</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class=" col s12 m6 l6">
-          <div class="card z-depth-5">
+        <div class="col s12 m6 l6">
+          <div class="card z-depth-1">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="clonamazon.png">
+              <img class="activator" src="clonamazon.png" />
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Clon Amazon<i class="material-icons right">more_vert</i></span>
-              <p><a  class="btn btn-tarjeta external" href="https://gracielacesareo.github.io/Amazon/#">Demo</a>
-                <a  class="derecha btn btn-tarjeta external"  href="https://github.com/nelyflores/Amazon">Codigo</a></p>
+              <span class="card-title activator grey-text text-darken-4"
+                >Clon Amazon<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a
+                  class="btn btn-tarjeta external"
+                  href="https://gracielacesareo.github.io/Amazon/#"
+                  >Demo</a
+                >
+                <a
+                  class="derecha btn btn-tarjeta external"
+                  href="https://github.com/nelyflores/Amazon"
+                  >Codigo</a
+                >
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Clon Amazon<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4"
+                >Clon Amazon<i class="material-icons right">close</i></span
+              >
               <p>Proyecto de Maquetación</p>
               <ul>
                 <li>se trabajo unicamente maquetado</li>
                 <li>framework usado bootstrap</li>
-                <li>Se trabajo en Github colaborativo </li>
+                <li>Se trabajo en Github colaborativo</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-  </div>
-
-  <div class="parallax-container">
-    <div class="parallax"><img   class="responsive-img" src="img/parallax1.jpg"></div>
-  </div>
-
-  <div class="section white " id="herramientas">
-    <div class="row container ">
-      <h2 class="header center">Herramientas de desarrollo</h2>
-      <hr class='separador_post'>
     </div>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img class="responsive-img" src="img/parallax1.jpg" />
+      </div>
+    </div>
+
+    <div class="section white" id="herramientas">
       <div class="row container">
+        <h2 class="header center">Herramientas de desarrollo</h2>
+        <hr class="separador_post" />
+      </div>
+      <div class="row container">
+        <ul class="collection with-header list-border">
+          <li class="collection-item list-border "><div>HTML</div></li>
+          <li class="collection-item list-border "><div>CSS</div></li>
+          <li class="collection-item list-border "><div>JavaScript</div></li>
+          <li class="collection-item list-border "><div>React</div></li>
+          <li class="collection-item list-border "><div>Git / Github / GitLab</div></li>
+          <li class="collection-item list-border "><div>npm</div></li>
+          <li class="collection-item list-border "><div>Yarn</div></li>
+          <li class="collection-item list-border "><div>mapbox</div></li>
+          <li class="collection-item list-border "><div>jquery</div></li>
+        </ul>
+      </div>
+   <!--   <div class="row container">
+
         <div class="col s4 m4 l4 wow rotateIn" data-wow-delay="1s">
-          <img   class="responsive-img center" src="img/basico.png">
+          <img class="responsive-img center" src="img/basico.png" />
         </div>
         <div class="col s4 m4 l4 wow rotateIn" data-wow-delay="2s">
-          <img  class="responsive-img center" src="img/jqueryredondo.png" alt="">
+          <img
+            class="responsive-img center"
+            src="img/jqueryredondo.png"
+            alt=""
+          />
         </div>
         <div class="col s4 m4 l4 wow rotateIn" data-wow-delay="3s">
-          <img  class="responsive-img center" src="img/bootstrapredondo.png">
+          <img class="responsive-img center" src="img/bootstrapredondo.png" />
         </div>
       </div>
 
       <div class="row container">
         <div class="col s4 m4 l4">
-          <img   class="responsive-img wow rollIn" data-wow-delay="1s" src="img/materializeredondo.png" alt="">
+          <img
+            class="responsive-img wow rollIn"
+            data-wow-delay="1s"
+            src="img/materializeredondo.png"
+            alt=""
+          />
         </div>
         <div class="col s4 m4 l4">
-          <img  class="responsive-img wow rollIn" data-wow-delay="2s" src="img/atomredondo.png" alt="">
+          <img
+            class="responsive-img wow rollIn"
+            data-wow-delay="2s"
+            src="img/atomredondo.png"
+            alt=""
+          />
         </div>
-         <div class="col s4 m4 l4">
-          <img class="responsive-img wow rollIn" data-wow-delay="3s" src="img/gitredondo.png" alt="">
+        <div class="col s4 m4 l4">
+          <img
+            class="responsive-img wow rollIn"
+            data-wow-delay="3s"
+            src="img/gitredondo.png"
+            alt=""
+          />
         </div>
       </div>
       <div class="row container">
         <div class="col s4 m4 l4">
-          <img class="responsive-img wow rotateInUpRight" data-wow-delay="1s" src="img/gulpredondo.png" alt="">
+          <img
+            class="responsive-img wow rotateInUpRight"
+            data-wow-delay="1s"
+            src="img/gulpredondo.png"
+            alt=""
+          />
         </div>
-            <div class="col s4 m4 l4">
-              <img class="responsive-img wow rotateInUpRight "  data-wow-delay="2s" src="img/noderedondo.png" alt="">
-            </div>
         <div class="col s4 m4 l4">
-          <img class="responsive-img  wow zoomIn " src="img/npmredondo.png" alt="">
+          <img
+            class="responsive-img wow rotateInUpRight"
+            data-wow-delay="2s"
+            src="img/noderedondo.png"
+            alt=""
+          />
         </div>
-      </div> 
-  </div>
+        <div class="col s4 m4 l4">
+          <img
+            class="responsive-img wow zoomIn"
+            src="img/npmredondo.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div> -->
 
-  <footer class="page-footer grey darken-4" id="contacto">
-    <div class="container ">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Contactos</h5>
-          <div class="row">
-            <div class="col s3">
-              <a class="external" href="https://github.com/nelyflores"><img src="img/github-logo.png" alt=""></a>
-            </div>
-            <div class="col s3">
-                <a class="external" href="https://www.linkedin.com/in/nely-abigail-flores-rojas-677805145/"><img src="img/linkedin.png" alt=""></a>
-            </div>
-            <div class="col s3">
-                <a  href="mailto:nely.afloresr@gmail.com"><img src="img/mail.png" alt=""></a>
-            </div>
-            <div class="col s3">
-                 <a  class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Cel: 55-13-89-65-84"><img src="img/smartphone.png" ></a>
+    <footer class="page-footer grey darken-4" id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Contactos</h5>
+            <div class="row">
+              <div class="col s3">
+                <a class="external" href="https://github.com/nelyflores"
+                  ><i class="fab fa-github fa-2x red-footer"></i></a>
+              </div>
+              <div class="col s3">
+                <a
+                  class="external"
+                  href="https://www.linkedin.com/in/nely-abigail-flores-rojas-677805145/"
+                  ><i class="fab fa-linkedin-in fa-2x red-footer"></i></a>
+              </div>
+              <div class="col s3">
+                <a href="mailto:nely.afloresr@gmail.com"
+                  ><i class="fas fa-envelope fa-2x red-footer"></i></a>
+              </div>
+              <div class="col s3">
+                <a
+                  class="tooltipped"
+                  data-position="bottom"
+                  data-delay="50"
+                  data-tooltip="Cel: 55-13-89-65-84"
+                  ><i class="fas fa-mobile-alt fa-2x red-footer"></i></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3 azul-footer" href="#about">Acerca de mí</a></li>
-            <li><a class="grey-text text-lighten-3 azul-footer" href="#proyectos">Proyectos</a></li>
-            <li><a class="grey-text text-lighten-3 azul-footer" href="#herramientas">Herramientas</a></li>
-          </ul>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3 azul-footer" href="#about"
+                  >Acerca de mí</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3 azul-footer"
+                  href="#proyectos"
+                  >Proyectos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3 azul-footer"
+                  href="#herramientas"
+                  >Herramientas</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2017 Nely Flores
+      <div class="footer-copyright">
+        <div class="container">
+          © 2017 Nely Flores
+        </div>
       </div>
-    </div>
-  </footer>
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript" src="js/menu.js"></script>
-  <script src="js/wow.min.js"></script>
-</body>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"
+    ></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script src="js/wow.min.js"></script>
+  </body>
 </html>
